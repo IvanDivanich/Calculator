@@ -37,7 +37,9 @@ namespace Calculator
                         Console.WriteLine(math1.Diference(x, y));
                         break;
                     case 3:
-                        break;
+						Console.WriteLine(math1.Sin(x));
+						Console.WriteLine(math1.Cos(y));
+						break;
                     case 4:
                         break;
                     case 5:
