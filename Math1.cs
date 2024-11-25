@@ -13,5 +13,11 @@ namespace Calculator
 
         public double Diference(int a, int b)
         { return a - b; }
-    }
+
+        public double Sin(int а)
+        { return Math.Sin(а); }
+
+		public double Cos(int b)
+		{ return Math.Cos(b); }
+	}
 }
